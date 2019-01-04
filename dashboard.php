@@ -150,6 +150,8 @@ else{
 
        <button class="btn btn-success" onclick="my(1)"><span>Log Out </span></button>
        <button class="btn btn-success" onclick="my(2)"><span>Write Blog </span></button>
+     </br></br>
+      <button class="btn btn-success" onclick="my(3)"><span>Upload Blog Image </span></button>
 
 
 
@@ -190,6 +192,8 @@ else{
    window.location.assign("logout.php");
    if(a==2)
    window.location.assign("write.php");
+   if(a==3)
+   window.location.assign("imageupload.php");
  }
  function mya(a){
    window.location.assign("delete.php?var="+a);
