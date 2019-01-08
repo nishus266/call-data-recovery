@@ -4,6 +4,12 @@ $email=$_POST['email'];
 $phone=$_POST['phone'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
+$to = "auday543@gmail.com";
+$from = "info@calldatarecovery.com";
+$headers = "From:" . $from;
+$mail_message="Name: ".$name."\nEmail Id: ".$email."\nContact No: ".$phone."\nQuery: ".$message;
+mail($to,$subject,$mail_message,$headers);
+
 
 include "connect.php";
 
