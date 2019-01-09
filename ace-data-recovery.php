@@ -148,7 +148,7 @@ color:#444;margin-left:35%;padding :25px;
                     </div>
                     <div class="col-md-12">
                       <div class="form-group">
-                          <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                          <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" style="width:150px;height:40px;" />
                       </div>
                     </div>
                 </div>
